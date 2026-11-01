@@ -215,8 +215,7 @@ body{padding-bottom:84px}
         </div>
         <label>Company website<input name="website" type="url" inputmode="url" required placeholder="brand.com"></label>
         <div class="row2">
-          <label>Role you need<select name="role" required>
-            <option value="">Choose a role</option><option>Media Buyer</option><option>Growth Marketer</option><option>Influencer / Affiliate</option><option>Customer Experience</option><option>Account Manager</option><option>Data Analyst</option><option>VA / Ops</option><option>Other</option></select></label>
+          <label>Role you need<input name="role" list="roles" required maxlength="80" autocomplete="off" placeholder="e.g. Media buyer, video editor"><datalist id="roles"><option value="Media Buyer"><option value="Growth Marketer"><option value="Video Editor"><option value="Influencer / Affiliate Manager"><option value="Customer Experience"><option value="Account Manager"><option value="Data Analyst"><option value="Bookkeeper / Accountant"><option value="Executive Assistant / Ops"></datalist></label>
           <label>Hires in the next 90 days<select name="hires" required>
             <option value="">Choose one</option><option>1</option><option>2 to 3</option><option>4 or more</option><option>Just exploring</option></select></label>
         </div>
